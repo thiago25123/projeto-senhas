@@ -21,3 +21,9 @@ tamanhoSenha++;
    }
     numeroSenha.textContent =tamanhoSenha;
  }
+
+ const campoSenha=document.querySelector('#campo-senha');
+
+ const lestrasMaiusculas= 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
+
+ campoSenha.value = lestrasMaiusculas;
