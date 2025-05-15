@@ -8,7 +8,7 @@ let tamanhoSenha=12
 
  function diminuiTamanho(){
    if(tamanhoSenha >1){
-tamanhoSenha=tamanhoSenha-1;
+tamanhoSenha--;
    }
 
 numeroSenha.textContent=tamanhoSenha;
@@ -17,7 +17,7 @@ numeroSenha.textContent=tamanhoSenha;
 
  function aumentaTamanho() {
    if(tamanhoSenha < 20){
-tamanhoSenha = tamanhoSenha+1;
+tamanhoSenha++;
    }
     numeroSenha.textContent =tamanhoSenha;
  }
