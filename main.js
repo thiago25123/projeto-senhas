@@ -25,5 +25,6 @@ tamanhoSenha++;
  const campoSenha=document.querySelector('#campo-senha');
 
  const lestrasMaiusculas= 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
+ function
 
  campoSenha.value = lestrasMaiusculas;
